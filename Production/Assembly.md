@@ -35,9 +35,7 @@ There are 2 speakers, each with 2 screws to attach. Whether you would like the w
 <img width="414" height="631" alt="Screenshot 2026-06-20 at 12 30 05 AM" src="https://github.com/user-attachments/assets/708593ec-b2c2-45bb-b260-574b55b83c2e" />
 
 6. The RFID cards and SD card
-You may have noticed this build uses RFID! There are 3 openings at the back for you to store those cards. Feel free to decorate the cards if you'd like to match whatever music you want to listen to. The SD card can be placed directly into the DFPlayer. Ensure you have songs on your SD card formatted properly with 4 digit numbers at the begining and the files be mp3. ie. "0001_Attention" (There is a file in production that already has a bunch of NewJeans songs downloaded in that MP3 format if you want something to reference off of!)
-
-Additionally, to customize further if you'd like to have the LCD display the proper titles for your songs, go into the firmware code and look at the 3 playlists. The name of the playlist shouldn't be changed! But the names in the list can be, and feel free to add more as the code will adjust to the amount you add! (But i do reccomend listening to some NewJeans :D) 
+You may have noticed this build uses RFID! There are 3 openings at the back for you to store those cards. Feel free to decorate the cards if you'd like to match whatever music you want to listen to. (More information on SD card set up below)
 
 <img width="1119" height="679" alt="Screenshot 2026-06-20 at 12 30 26 AM" src="https://github.com/user-attachments/assets/ace1790d-627e-49bf-92fb-c07192927aad" />
 
@@ -62,3 +60,11 @@ This one is self explanatory! Just place the lid on top, the eyes of the creatur
 <img width="788" height="559" alt="Screenshot 2026-06-20 at 12 32 02 AM" src="https://github.com/user-attachments/assets/5dc68001-ebec-45b8-b488-956572ada504" />
 
 Yay! Now you have a music player. 
+
+# SD CARD SET UP
+
+The SD card can be placed directly into the DFPlayer. Ensure you have songs on your SD card formatted properly with 4 digit numbers at the begining and the files be mp3. ie. "0001_Attention" note that this is only if you plan on NOT having multiple playlists. 
+
+If you plan on having up to 3 playlists, put your songs in different files (one file for each playlist) and rename the file "01", "02".. you get the point. The songs should start with a THREE digit number instead of a four digit number. This is because you have placed it in a folder. (There is a file in production that already has a bunch of NewJeans songs downloaded in that MP3 format if you want something to reference off of/are confused!)
+
+Additionally, to customize further if you'd like to have the LCD display the proper titles for your songs, go into the firmware code and look at the 3 playlists. The name of the playlist shouldn't be changed! But the names in the list can be, and feel free to add more as the code will adjust to the amount you add! (But i do reccomend listening to some NewJeans :D) 
