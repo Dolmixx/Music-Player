@@ -1,4 +1,6 @@
-# Music-Player
+# Tokkiplayer.mp3
+
+<img width="460" height="649" alt="Screenshot 2026-06-20 at 6 21 19 AM" src="https://github.com/user-attachments/assets/925c5829-0c61-4ac9-9c03-7c97e19b77b9" />
 
 <img width="788" height="559" alt="Screenshot 2026-06-20 at 12 32 02 AM" src="https://github.com/user-attachments/assets/a9db339e-2a7f-457c-90f1-46e3cb7e0281" />
 
@@ -9,12 +11,12 @@
 To put simply this is a music player! Simply insert a SD card into the DFPlayer and start tapping cards to activate the playlist, you can double press the pause/play button to shuffle. It has speakers on both sides to give you a better listening experience with volume buttons! 
 
 # What does this do? 
-It plays music silly! No but what makes this unique is that it has a RFID reader, that means you take the RFID cards and tap. When you first boot up the system, it'll be looking for new cards to assign playlists to and can store up to 3. (Feel free to look at the code to understand this better, or change it up to you!) It uses a DFPlayer mini to play songs off of a SD card. (Note: the songs must be mp3 and each title must start with a 4 digit number ie. "0004_Attention") In firmware there is a download that can go straight into your SD card filled with songs from an artist called NewJeans. (Feel free to use it as reference or use it to listen to some banger music) 
+It plays music silly! No but what makes this unique is that it has a RFID reader, that means you take the RFID cards and tap. When you first boot up the system, it'll be looking for new cards to assign playlists to and can store up to 3. (Feel free to look at the code to understand this better, or change it up to you!) It uses a DFPlayer mini to play songs off of a SD card. (Note: the songs must be mp3 and each title must start with a 3 digit number ie. "004_Attention" more information in assembly guide) In firmware there is a download that can go straight into your SD card filled with songs from an artist called NewJeans. (Feel free to use it as reference or use it to listen to some banger music) 
 
 The cards then act as your "key" to playing a specific playlist, want to listen to NewJeans debut ep? Well tap the card. Don't want to listen to the same order of songs? Double press the play/pause button to shuffle! 
 
 # Why does this exist?
-Sometimes (all the time) I get tired of stupid ads, they interupt my music and when I'm getting into the zone. I just want to listen to my music in peace and as a person who adores the same songs on loop, this works perfectly to solve my problem. Who has the money to pay for a subscription? Not me. Also I only listen to a couple songs (my playlist is forever stuck at like 60 songs in which i loop the last 5 or something), so this is perfect! 
+Sometimes (all the time) I get tired of stupid ads, they interupt my music and when I'm getting into the zone. I just want to listen to my music in peace and as a person who adores the same songs on loop, this works perfectly to solve my problem. Who has the money to pay for a subscription? Not me. Also I only listen to a couple songs (my playlist is forever stuck at like 60 songs in which I loop the last 5 or something), so this is perfect! 
 
 # Assembly + Set up
 Here's the assembly [linked](https://github.com/Dolmixx/Music-Player/blob/d89c907a169f63c7a581223001ba0d8bccbacf9c/Production/Assembly.md)! It also provides some insight on how to format your SD card and set up.  
